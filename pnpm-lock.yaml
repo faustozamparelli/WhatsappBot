@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      qrcode-terminal:
+        specifier: ^0.12.0
+        version: 0.12.0
       whatsapp-web.js:
         specifier: ^1.23.0
         version: 1.23.0
@@ -315,6 +318,10 @@ packages:
     resolution: {integrity: sha512-U1uufzBjz3+PkpCxFrWzh4OrMIdIb2ztzCu0YEPfRHjHswcSwHZswnK+WdsOQJsRV8WeTg3jLhJR4D867+fjsA==}
     engines: {node: '>=10.18.1'}
     deprecated: < 21.9.0 is no longer supported
+
+  qrcode-terminal@0.12.0:
+    resolution: {integrity: sha512-EXtzRZmC+YGmGlDFbXKxQiMZNwCLEO6BANKXG4iCtSIM0yqc/pappSx3RIKr4r0uh5JsBckOXeKrB3Iz7mdQpQ==}
+    hasBin: true
 
   readable-stream@2.3.8:
     resolution: {integrity: sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==}
@@ -780,6 +787,8 @@ snapshots:
       - encoding
       - supports-color
       - utf-8-validate
+
+  qrcode-terminal@0.12.0: {}
 
   readable-stream@2.3.8:
     dependencies:
