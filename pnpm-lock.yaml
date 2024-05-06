@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      fs:
+        specifier: 0.0.1-security
+        version: 0.0.1-security
       qrcode-terminal:
         specifier: ^0.12.0
         version: 0.12.0
@@ -155,6 +158,9 @@ packages:
 
   fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
+
+  fs@0.0.1-security:
+    resolution: {integrity: sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==}
 
   fstream@1.0.12:
     resolution: {integrity: sha512-WvJ193OHa0GHPEL+AycEJgxvBEwyfRkN1vhjca23OaPVMCaLCXTd5qAu82AjTcgP1UJmytkOKb63Ypde7raDIg==}
@@ -614,6 +620,8 @@ snapshots:
     optional: true
 
   fs.realpath@1.0.0: {}
+
+  fs@0.0.1-security: {}
 
   fstream@1.0.12:
     dependencies:
