@@ -22,7 +22,7 @@ client.initialize();
 
 client.on("message_create", (message) => {
   if (
-    Contact.name === "Lus" &&
+    message.from === "393801426695@c.us" &&
     message.body.toLowerCase().startsWith("buongiorno")
   ) {
     fs.readFile("./morning_response.csv", "utf8", (err, data) => {
@@ -35,12 +35,13 @@ client.on("message_create", (message) => {
 
       const randomResponse =
         responses[Math.floor(Math.random() * responses.length)];
-
-      const delay = Math.floor(Math.random() * 40 * 60 * 1000);
-
-      setTimeout(() => {
-        client.sendMessage(message.from, randomResponse);
-      }, delay);
+      //
+      // const delay = Math.floor(Math.random() * 50 * 60 * 1000);
+      //
+      // setTimeout(() => {
+      //   client.sendMessage(message.from, randomResponse);
+      // }, delay);
+      client.sendMessage(message.from, randomResponse);
     });
   }
 });
