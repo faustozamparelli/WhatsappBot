@@ -162,25 +162,6 @@ await new Promise((resolve) => setTimeout(resolve, delay * 1000));
 - **Message Privacy**: Messages are sent to Groq AI for processing
 - **Authentication**: Uses WhatsApp's official web authentication
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **QR Code not appearing**
-
-   - Ensure WhatsApp Web is not already connected on another device
-   - Clear browser cache and try again
-
-2. **Bot not responding**
-
-   - Check if the contact name matches exactly
-   - Verify the Groq API key is set correctly
-   - Check console for error messages
-
-3. **Connection issues**
-   - Ensure stable internet connection
-   - Try restarting the bot
-
 ## 📄 Dependencies
 
 ### Main Dependencies
@@ -191,10 +172,6 @@ await new Promise((resolve) => setTimeout(resolve, delay * 1000));
 - `next` - React framework for the web interface
 - `tailwindcss` - Utility-first CSS framework
 
-## 📜 License
-
-ISC License
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -202,11 +179,3 @@ ISC License
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## ⚠️ Disclaimer
-
-This bot is for educational and personal use. Ensure you comply with WhatsApp's Terms of Service and respect user privacy when using automated messaging tools.
-
-## 📞 Support
-
-For issues and questions, please check the troubleshooting section or create an issue in the repository.
